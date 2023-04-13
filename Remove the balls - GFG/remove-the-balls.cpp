@@ -9,7 +9,7 @@ using namespace std;
 
 class Solution {
   public:
-    int finLength(int N, vector<int> color, vector<int> radius) {
+    int finLength(int N, vector<int>& color, vector<int>& radius) {
          stack<int>col,rad;
         col.push(color[0]);
         rad.push(radius[0]);
