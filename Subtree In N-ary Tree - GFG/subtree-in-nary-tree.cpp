@@ -49,7 +49,7 @@ unordered_map<string, int> mp;
         s+=to_string(root->data);
         
         for(auto child:root->children){
-            s+='#' +trav(child);
+            s+=trav(child);
         }
         mp[s]++;
         return s;
